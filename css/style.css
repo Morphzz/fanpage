@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    background-color: #40bf80;
     
 }
 a {
@@ -17,3 +18,23 @@ a {
     width: 30px;
     margin: 15px;
 }
+.gallery{
+display:flex;
+width: 50px;
+
+}
+.thumbnail-image{
+    height:400px;
+    padding:20px;
+}
+.navbar{
+    font-size:2em;
+    padding:0px 10px 0px 110px;
+}
+.Gal{
+    padding:40px ;
+}
+.Gal1{
+    padding:40px;
+}
+
