@@ -4,37 +4,89 @@ html {
 
 body {
     height: 100%;
-    background-color: #40bf80;
-    
+    background: url("https://media.giphy.com/media/ZYrKMUgWdJ9UA/giphy.gif")
 }
-a {
-    text-decoration: none;
+.aboutPage {
+    background: url("https://www.bing.com/th?id=OGC.cf0a889c6a73319c17021003feb3ec7a&pid=1.7&rurl=http%3a%2f%2fbestanimations.com%2fMoney%2fGems%2fsparkling-glitter-animated-gif-2.gif&ehk=pSO7h76T5wlB0bnb7FArcw");
 }
 
-.main {
-    height: 100%;
+a {
+    text-decoration: solid;
 }
 .social-image{
     width: 30px;
     margin: 15px;
+    display:flex;
+    justify-content:center;
 }
-.gallery{
-display:flex;
-width: 50px;
+.thumbnail1{
+    display:flex;
+    justify-content:center;
+    border:dotted tan 10px;
+    padding:10px 20px 10px;
+
 
 }
 .thumbnail-image{
-    height:400px;
-    padding:20px;
+    display:flex;
+    justify-content:center;
 }
 .navbar{
     font-size:2em;
     padding:0px 10px 0px 110px;
+    display:flex;
+    justify-content:center;
+    justify-content:space-between;
+    margin: 10px;
+    border:dotted yellow 5px;
+    background-image:url("https://www.bing.com/th?id=OGC.fc515b4216bb837e07ca16e6a662cdd6&pid=1.7&rurl=http%3a%2f%2f24.media.tumblr.com%2f1ee597348c29d22c72eccf946fa96609%2ftumblr_n18lceFGr21r1fy4bo1_500.gif&ehk=nbPE%2fPAPwWQM3Cha%2fuYC%2bQ");
+    
+}
+.navbar1{
+    font-size:2em;
+    padding:0px 10px 0px 110px;
+    display:flex;
+    justify-content:center;
+    justify-content:space-between;
+    margin: 10px;
+    border:solid white 5px;
+    background-image:url("https://www.bing.com/th?id=OGC.3c9c8445a93989f8fd4ac6ff54402b45&pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2ffcuyIsxkuKRFe%2fgiphy.gif&ehk=ZUnIVWtZIFepo6DlP6TNHA");
+    
 }
 .Gal{
-    padding:40px ;
-}
-.Gal1{
-    padding:40px;
+    display:flex;
+    justify-content:center;
+    margin:10px;
+    border:solid grey 10px;
 }
 
+.header {
+    display:flex;
+    justify-content:center;
+    color:white;
+    font-size:40px;
+    border: solid grey 5px;
+    background-image:url("https://media.giphy.com/media/3IaC81YOZudfa/giphy.gif");
+}
+.header1 {
+    display:flex;
+    justify-content:center;
+    color:#86592d;
+    font-size:40px;
+    border: dotted tan 5px;
+    background-image:url("https://www.bing.com/th?id=OGC.b78267e1090cba3567cea22055cd9221&pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2f3d63YDxRJRtkZepvGm%2fgiphy.gif&ehk=pU57ngTKoeORZCS4r9tdPw");
+}
+.leftPane {
+     display:flex;
+     justify-content:center;
+     color:	#800080;
+     font-size: 30px;
+     padding:10px;
+ }
+ .rightPane {
+     background-image:url("http://wallscollection.net/wp-content/uploads/2016/12/Jasmine-Tookes-Wallpapers-1366x768.jpg");
+ }
+ .footer {
+     display:flex;
+     justify-content:center;
+ }
